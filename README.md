@@ -7,7 +7,13 @@ Neuer Shop für die Böwe GmbH, Aurich (Fach- und Großhandel seit 1924). Next.j
 - Importformat: [`docs/IMPORT.md`](docs/IMPORT.md)
 - Briefing (Faktenbasis): [`docs/boewe-briefing.md`](docs/boewe-briefing.md)
 
-## Schnellstart
+## Ansehen ohne Installation (GitHub Codespaces)
+
+Auf GitHub: **Code → Codespaces → Create codespace on `claude/boewe-shop-redesign-1vsgpv`**.
+Nach ca. 2–3 Minuten startet der Shop automatisch und öffnet sich in einem neuen Tab
+(sonst unten im Reiter **Ports** auf die Weltkugel bei Port 3000 klicken).
+
+## Schnellstart (lokal)
 
 ```bash
 cp .env.example .env

@@ -1,0 +1,15 @@
+{
+  "name": "Böwe Shop",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "hostRequirements": { "cpus": 2, "memory": "4gb" },
+  "postCreateCommand": "cp -n .env.example .env && npm install && npm run setup",
+  "postAttachCommand": "npm run dev -- -H 0.0.0.0",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Böwe Shop", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] },
+    "vscode": { "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "bradlc.vscode-tailwindcss", "Prisma.prisma"] }
+  }
+}
