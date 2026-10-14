@@ -1,0 +1,2384 @@
+{
+  "$comment": "Beispielprodukte für die Entwicklung im kanonischen Importformat (siehe docs/IMPORT.md). Preise sind Beispielwerte, keine verbindlichen Böwe-Preise. EANs aus dem GS1-Bereich 20–29 (interne Nummern).",
+  "products": [
+    {
+      "sku": "GR-1001-1",
+      "name": "Gitterrost Normrost verzinkt MW 30/30, 400 x 600 mm",
+      "categories": ["gitterroste/normroste"],
+      "priceGross": 32.5,
+      "taxRate": 19,
+      "shortDescription": "Pressrost MW 30/30, Tragstab 25 x 2 mm, feuerverzinkt",
+      "description": "Klassischer Pressrost aus Stahl, feuerverzinkt nach DIN EN ISO 1461. Begehbar, rutschhemmend und wetterfest – für Kellerschächte, Laufwege, Podeste und Abdeckungen. Ab Lager Aurich, weitere Maße als Gitterrost nach Maß.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "400 x 600 mm",
+          "variantAxis": true
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 30"
+        },
+        {
+          "key": "tragstab",
+          "value": "25 x 2"
+        },
+        {
+          "key": "material",
+          "value": "Stahl S235JR"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 400 x 600 mm"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 400 x 600 mm – Detailansicht"
+        }
+      ],
+      "ean": "2000001000014",
+      "mpn": "BSP-GR-1001-1",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "GR-NORM-3030",
+      "weightGrams": 6500,
+      "shippingClass": "PAKET",
+      "isTopProduct": true,
+      "isBestseller": true,
+      "related": ["GR-1060", "GR-1061", "GR-1070"]
+    },
+    {
+      "sku": "GR-1001-2",
+      "name": "Gitterrost Normrost verzinkt MW 30/30, 500 x 1000 mm",
+      "categories": ["gitterroste/normroste"],
+      "priceGross": 59.9,
+      "taxRate": 19,
+      "shortDescription": "Pressrost MW 30/30, Tragstab 25 x 2 mm, feuerverzinkt",
+      "description": "Klassischer Pressrost aus Stahl, feuerverzinkt nach DIN EN ISO 1461. Begehbar, rutschhemmend und wetterfest – für Kellerschächte, Laufwege, Podeste und Abdeckungen. Ab Lager Aurich, weitere Maße als Gitterrost nach Maß.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "500 x 1000 mm",
+          "variantAxis": true
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 30"
+        },
+        {
+          "key": "tragstab",
+          "value": "25 x 2"
+        },
+        {
+          "key": "material",
+          "value": "Stahl S235JR"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 500 x 1000 mm"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 500 x 1000 mm – Detailansicht"
+        }
+      ],
+      "ean": "2000001000021",
+      "mpn": "BSP-GR-1001-2",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "GR-NORM-3030",
+      "weightGrams": 13500,
+      "shippingClass": "PAKET",
+      "isTopProduct": false,
+      "isBestseller": true,
+      "related": ["GR-1060", "GR-1061", "GR-1070"]
+    },
+    {
+      "sku": "GR-1001-3",
+      "name": "Gitterrost Normrost verzinkt MW 30/30, 600 x 1000 mm",
+      "categories": ["gitterroste/normroste"],
+      "priceGross": 69.9,
+      "taxRate": 19,
+      "shortDescription": "Pressrost MW 30/30, Tragstab 25 x 2 mm, feuerverzinkt",
+      "description": "Klassischer Pressrost aus Stahl, feuerverzinkt nach DIN EN ISO 1461. Begehbar, rutschhemmend und wetterfest – für Kellerschächte, Laufwege, Podeste und Abdeckungen. Ab Lager Aurich, weitere Maße als Gitterrost nach Maß.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "600 x 1000 mm",
+          "variantAxis": true
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 30"
+        },
+        {
+          "key": "tragstab",
+          "value": "25 x 2"
+        },
+        {
+          "key": "material",
+          "value": "Stahl S235JR"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 600 x 1000 mm"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Gitterrost Normrost verzinkt MW 30/30, 600 x 1000 mm – Detailansicht"
+        }
+      ],
+      "ean": "2000001000038",
+      "mpn": "BSP-GR-1001-3",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "GR-NORM-3030",
+      "weightGrams": 16000,
+      "shippingClass": "PAKET",
+      "isTopProduct": false,
+      "isBestseller": false,
+      "related": ["GR-1060", "GR-1061", "GR-1070"]
+    },
+    {
+      "sku": "GR-1010",
+      "name": "Schweißpressrost MW 34/38, 1000 x 1000 mm, Tragstab 30 x 3",
+      "categories": ["gitterroste/industrieroste"],
+      "priceGross": 139.0,
+      "taxRate": 19,
+      "shortDescription": "Industrierost für Bühnen und Laufstege",
+      "description": "Schweißpressrost für höhere Lasten in Industrie und Gewerbe: Bühnen, Laufstege, Arbeitsplattformen. Feuerverzinkt, mit Randeinfassung.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "1000 x 1000 mm"
+        },
+        {
+          "key": "maschenweite",
+          "value": "34 x 38"
+        },
+        {
+          "key": "tragstab",
+          "value": "30 x 3"
+        },
+        {
+          "key": "material",
+          "value": "Stahl S235JR"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "hoch belastbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Schweißpressrost MW 34/38, 1000 x 1000 mm, Tragstab 30 x 3"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Schweißpressrost MW 34/38, 1000 x 1000 mm, Tragstab 30 x 3 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000045",
+      "mpn": "BSP-GR-1010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 32000,
+      "shippingClass": "SPEDITION",
+      "isTopProduct": true
+    },
+    {
+      "sku": "GR-1020",
+      "name": "GFK-Gitterrost MW 38/38, 1000 x 1000 mm, Höhe 30 mm, grau",
+      "categories": ["gitterroste/gfk-roste"],
+      "priceGross": 189.0,
+      "taxRate": 19,
+      "description": "Gitterrost aus glasfaserverstärktem Kunststoff: korrosionsfrei, nicht leitend und leicht. Ideal für Kläranlagen, Chemie, Schiffbau und feuchte Bereiche.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "1000 x 1000 mm"
+        },
+        {
+          "key": "maschenweite",
+          "value": "38 x 38"
+        },
+        {
+          "key": "material",
+          "value": "GFK"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "besandet"
+        },
+        {
+          "key": "farbe",
+          "value": "grau"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "GFK-Gitterrost MW 38/38, 1000 x 1000 mm, Höhe 30 mm, grau"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "GFK-Gitterrost MW 38/38, 1000 x 1000 mm, Höhe 30 mm, grau – Detailansicht"
+        }
+      ],
+      "ean": "2000001000052",
+      "mpn": "BSP-GR-1020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 14000,
+      "isNew": true
+    },
+    {
+      "sku": "GR-1030",
+      "name": "Garagenrost befahrbar, 1000 x 250 mm, MW 30/10",
+      "categories": ["gitterroste/garagenroste"],
+      "priceGross": 64.9,
+      "taxRate": 19,
+      "description": "Befahrbarer Rost für Garageneinfahrten und Entwässerungsrinnen. Enge Maschenweite, damit nichts hängen bleibt.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "1000 x 250 mm"
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 10"
+        },
+        {
+          "key": "tragstab",
+          "value": "30 x 3"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "befahrbar (Pkw)"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Garagenrost befahrbar, 1000 x 250 mm, MW 30/10"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Garagenrost befahrbar, 1000 x 250 mm, MW 30/10 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000069",
+      "mpn": "BSP-GR-1030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 9500,
+      "related": ["GR-1080"]
+    },
+    {
+      "sku": "GR-1040",
+      "name": "Lichtschachtrost verzinkt, 1000 x 400 mm, MW 30/30",
+      "categories": ["gitterroste/lichtschachtroste"],
+      "priceGross": 49.9,
+      "taxRate": 19,
+      "description": "Abdeckung für Kellerlichtschächte. Passt auf gängige Schachtmaße; mit unserer ABUS Gitterrostsicherung gegen Aushebeln geschützt.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "1000 x 400 mm"
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 30"
+        },
+        {
+          "key": "tragstab",
+          "value": "25 x 2"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Lichtschachtrost verzinkt, 1000 x 400 mm, MW 30/30"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Lichtschachtrost verzinkt, 1000 x 400 mm, MW 30/30 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000076",
+      "mpn": "BSP-GR-1040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 9000,
+      "isTopProduct": true,
+      "related": ["GR-1061"]
+    },
+    {
+      "sku": "GR-1060",
+      "name": "Gitterrost-Befestigungsklemmen, Set mit 4 Stück, verzinkt",
+      "categories": ["gitterroste/zubehoer"],
+      "priceGross": 9.9,
+      "taxRate": 19,
+      "description": "Klemmen zur sicheren Befestigung von Gitterrosten auf Stahlträgern – ohne Bohren, mit Schraube und Mutter.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "galvanisch verzinkt"
+        },
+        {
+          "key": "inhalt",
+          "value": "4 Klemmen inkl. Schrauben"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hardware-1.svg",
+          "alt": "Gitterrost-Befestigungsklemmen, Set mit 4 Stück, verzinkt"
+        },
+        {
+          "url": "/images/placeholder/hardware-2.svg",
+          "alt": "Gitterrost-Befestigungsklemmen, Set mit 4 Stück, verzinkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000090",
+      "mpn": "BSP-GR-1060",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 400
+    },
+    {
+      "sku": "GR-1061",
+      "name": "ABUS Gitterrostsicherung",
+      "brand": "Abus",
+      "categories": ["gitterroste/zubehoer", "sicherheitstechnik/abus"],
+      "priceGross": 25.3,
+      "taxRate": 19,
+      "description": "Sichert Lichtschachtroste von innen gegen Abheben – eine einfache, wirksame Einbruchhemmung für Kellerschächte. Montage ohne Spezialwerkzeug.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt"
+        },
+        {
+          "key": "lieferumfang",
+          "value": "1 Sicherung inkl. Befestigungsmaterial"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/lock-1.svg",
+          "alt": "ABUS Gitterrostsicherung"
+        },
+        {
+          "url": "/images/placeholder/lock-2.svg",
+          "alt": "ABUS Gitterrostsicherung – Detailansicht"
+        }
+      ],
+      "ean": "2000001000106",
+      "mpn": "BSP-GR-1061",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isTopProduct": true,
+      "isBestseller": true,
+      "weightGrams": 600
+    },
+    {
+      "sku": "GR-1070",
+      "name": "Winkelrahmen verzinkt für Rost 500 x 1000 mm",
+      "categories": ["gitterroste/rahmen"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Einbaurahmen aus Winkelstahl mit Mauerankern – für den bündigen Einbau von Gitterrosten.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "500 x 1000 mm"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Winkelrahmen verzinkt für Rost 500 x 1000 mm"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Winkelrahmen verzinkt für Rost 500 x 1000 mm – Detailansicht"
+        }
+      ],
+      "ean": "2000001000113",
+      "mpn": "BSP-GR-1070",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 5500
+    },
+    {
+      "sku": "GR-1080",
+      "name": "Entwässerungsrinne 1 m mit Gitterrost verzinkt",
+      "categories": ["gitterroste/entwaesserung", "baubedarf/abwasser"],
+      "priceGross": 29.9,
+      "taxRate": 19,
+      "description": "Kunststoff-Rinne mit feuerverzinktem Stegrost für Terrassen, Hofflächen und Garageneinfahrten.",
+      "attributes": [
+        {
+          "key": "laenge",
+          "value": "1000"
+        },
+        {
+          "key": "material",
+          "value": "Kunststoff / Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        },
+        {
+          "key": "belastung",
+          "value": "begehbar"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/gutter-1.svg",
+          "alt": "Entwässerungsrinne 1 m mit Gitterrost verzinkt"
+        },
+        {
+          "url": "/images/placeholder/gutter-2.svg",
+          "alt": "Entwässerungsrinne 1 m mit Gitterrost verzinkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000120",
+      "mpn": "BSP-GR-1080",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "unit": "Stück",
+      "weightGrams": 3500,
+      "isNew": true
+    },
+    {
+      "sku": "EW-2001",
+      "name": "Pfostenträger H-Form 71 x 600 mm, feuerverzinkt",
+      "categories": ["eisenwaren/pfostentraeger-und-kappen"],
+      "priceGross": 12.9,
+      "taxRate": 19,
+      "description": "Zum Einbetonieren – für Carports, Zäune und Pergolen mit 7er-Kantholz.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "71 x 600 mm"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hardware-1.svg",
+          "alt": "Pfostenträger H-Form 71 x 600 mm, feuerverzinkt"
+        },
+        {
+          "url": "/images/placeholder/hardware-2.svg",
+          "alt": "Pfostenträger H-Form 71 x 600 mm, feuerverzinkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000137",
+      "mpn": "BSP-EW-2001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 1600
+    },
+    {
+      "sku": "EW-2010",
+      "name": "Schiebetor-Laufrolle Ø 100 mm, verzinkt",
+      "categories": ["eisenwaren/schiebetorzubehoer"],
+      "priceGross": 24.9,
+      "taxRate": 19,
+      "description": "Kugelgelagerte Laufrolle mit Rundnut für Schiebetore auf Rundstahlschiene.",
+      "attributes": [
+        {
+          "key": "durchmesser",
+          "value": "100"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "galvanisch verzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hardware-1.svg",
+          "alt": "Schiebetor-Laufrolle Ø 100 mm, verzinkt"
+        },
+        {
+          "url": "/images/placeholder/hardware-2.svg",
+          "alt": "Schiebetor-Laufrolle Ø 100 mm, verzinkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000151",
+      "mpn": "BSP-EW-2010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 900
+    },
+    {
+      "sku": "EW-2020",
+      "name": "Holzbauschrauben Senkkopf 6 x 120 mm, Torx, 100 Stück",
+      "categories": ["eisenwaren/schrauben"],
+      "priceGross": 17.9,
+      "taxRate": 19,
+      "description": "Teilgewinde, Fräsrippen und Bohrspitze für schnelles Verschrauben im Holzbau.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "6 x 120 mm"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt"
+        },
+        {
+          "key": "inhalt",
+          "value": "100 Stück"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hardware-1.svg",
+          "alt": "Holzbauschrauben Senkkopf 6 x 120 mm, Torx, 100 Stück"
+        },
+        {
+          "url": "/images/placeholder/hardware-2.svg",
+          "alt": "Holzbauschrauben Senkkopf 6 x 120 mm, Torx, 100 Stück – Detailansicht"
+        }
+      ],
+      "ean": "2000001000168",
+      "mpn": "BSP-EW-2020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 2300
+    },
+    {
+      "sku": "EW-2030",
+      "name": "Rundstahlkette verzinkt 6 mm, Meterware",
+      "categories": ["eisenwaren/seile-und-ketten"],
+      "priceGross": 4.9,
+      "taxRate": 19,
+      "description": "Kurzgliedrige Kette für Absperrungen, Befestigungen und den allgemeinen Gebrauch. Nicht zum Heben von Lasten.",
+      "attributes": [
+        {
+          "key": "drahtstaerke",
+          "value": "6"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "galvanisch verzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/chain-1.svg",
+          "alt": "Rundstahlkette verzinkt 6 mm, Meterware"
+        },
+        {
+          "url": "/images/placeholder/chain-2.svg",
+          "alt": "Rundstahlkette verzinkt 6 mm, Meterware – Detailansicht"
+        }
+      ],
+      "ean": "2000001000175",
+      "mpn": "BSP-EW-2030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "unit": "m",
+      "weightGrams": 800
+    },
+    {
+      "sku": "EW-2040",
+      "name": "Stabelektroden rutil 2,5 x 350 mm, 4 kg",
+      "categories": ["eisenwaren/schweisstechnik"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Universelle Rutilelektroden für unlegierte Baustähle – ruhiger Lichtbogen, leicht entfernbare Schlacke.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "2,5 x 350 mm"
+        },
+        {
+          "key": "inhalt",
+          "value": "ca. 4 kg"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hardware-1.svg",
+          "alt": "Stabelektroden rutil 2,5 x 350 mm, 4 kg"
+        },
+        {
+          "url": "/images/placeholder/hardware-2.svg",
+          "alt": "Stabelektroden rutil 2,5 x 350 mm, 4 kg – Detailansicht"
+        }
+      ],
+      "ean": "2000001000199",
+      "mpn": "BSP-EW-2040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 4200
+    },
+    {
+      "sku": "GF-3001",
+      "name": "Stihl Akku-Motorsense FSA 57, Set mit Akku und Ladegerät",
+      "brand": "Stihl",
+      "categories": ["garten-und-forst/stihl"],
+      "priceGross": 299.0,
+      "taxRate": 19,
+      "description": "Leichte Akku-Motorsense für Rasenkanten und kleine Flächen rund ums Haus. Im Set mit Akku und Ladegerät – direkt einsatzbereit. Beratung und Einweisung in unserem Laden in Aurich.",
+      "attributes": [
+        {
+          "key": "antrieb",
+          "value": "Akku"
+        },
+        {
+          "key": "akkusystem",
+          "value": "Stihl AK-System"
+        },
+        {
+          "key": "lieferumfang",
+          "value": "Gerät, Akku, Ladegerät"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/garden-1.svg",
+          "alt": "Stihl Akku-Motorsense FSA 57, Set mit Akku und Ladegerät"
+        },
+        {
+          "url": "/images/placeholder/garden-2.svg",
+          "alt": "Stihl Akku-Motorsense FSA 57, Set mit Akku und Ladegerät – Detailansicht"
+        }
+      ],
+      "ean": "2000001000212",
+      "mpn": "BSP-GF-3001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isTopProduct": true,
+      "weightGrams": 4500,
+      "related": ["AS-5030"]
+    },
+    {
+      "sku": "GF-3002",
+      "name": "Stihl Akku-Motorsäge MSA 220 C-B, Set",
+      "brand": "Stihl",
+      "categories": ["garten-und-forst/stihl"],
+      "priceGross": 899.0,
+      "taxRate": 19,
+      "description": "Kraftvolle Akku-Motorsäge für Brennholz, Baumpflege und den Bau. Im Set mit Akku und Schnellladegerät. Mit Einweisung bei Abholung im Laden.",
+      "attributes": [
+        {
+          "key": "antrieb",
+          "value": "Akku"
+        },
+        {
+          "key": "akkusystem",
+          "value": "Stihl AP-System"
+        },
+        {
+          "key": "lieferumfang",
+          "value": "Gerät, Akku, Ladegerät"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/saw-1.svg",
+          "alt": "Stihl Akku-Motorsäge MSA 220 C-B, Set"
+        },
+        {
+          "url": "/images/placeholder/saw-2.svg",
+          "alt": "Stihl Akku-Motorsäge MSA 220 C-B, Set – Detailansicht"
+        }
+      ],
+      "ean": "2000001000229",
+      "mpn": "BSP-GF-3002",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isNew": true,
+      "isTopProduct": true,
+      "weightGrams": 7000
+    },
+    {
+      "sku": "GF-3003",
+      "name": "Stihl Akku-Blasgerät BGA 57, Set",
+      "brand": "Stihl",
+      "categories": ["garten-und-forst/stihl"],
+      "priceGross": 249.0,
+      "taxRate": 19,
+      "description": "Für Laub auf Terrasse, Hof und Einfahrt – leise und ohne Abgase.",
+      "attributes": [
+        {
+          "key": "antrieb",
+          "value": "Akku"
+        },
+        {
+          "key": "akkusystem",
+          "value": "Stihl AK-System"
+        },
+        {
+          "key": "lieferumfang",
+          "value": "Gerät, Akku, Ladegerät"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/garden-1.svg",
+          "alt": "Stihl Akku-Blasgerät BGA 57, Set"
+        },
+        {
+          "url": "/images/placeholder/garden-2.svg",
+          "alt": "Stihl Akku-Blasgerät BGA 57, Set – Detailansicht"
+        }
+      ],
+      "ean": "2000001000236",
+      "mpn": "BSP-GF-3003",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isBestseller": true,
+      "weightGrams": 3800
+    },
+    {
+      "sku": "GF-3010",
+      "name": "Viking Benzin-Rasenmäher MB 248",
+      "brand": "Viking",
+      "categories": ["garten-und-forst/viking"],
+      "priceGross": 449.0,
+      "taxRate": 19,
+      "description": "Robuster Benzin-Rasenmäher für mittlere Rasenflächen, mit Fangbox. Lieferung montiert und betankt auf Anfrage.",
+      "attributes": [
+        {
+          "key": "antrieb",
+          "value": "Benzin"
+        },
+        {
+          "key": "schnittbreite",
+          "value": "46"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/mower-1.svg",
+          "alt": "Viking Benzin-Rasenmäher MB 248"
+        },
+        {
+          "url": "/images/placeholder/mower-2.svg",
+          "alt": "Viking Benzin-Rasenmäher MB 248 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000243",
+      "mpn": "BSP-GF-3010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 28000,
+      "shippingClass": "SPEDITION"
+    },
+    {
+      "sku": "GF-3020",
+      "name": "Ego Akku-Rasenmäher 47 cm, 56 V, Set",
+      "brand": "Ego",
+      "categories": ["garten-und-forst/ego"],
+      "priceGross": 699.0,
+      "taxRate": 19,
+      "description": "Akku-Rasenmäher mit Benziner-Leistung: 56-V-System, Fangkorb, klappbarer Holm. Im Set mit Akku und Ladegerät.",
+      "attributes": [
+        {
+          "key": "antrieb",
+          "value": "Akku"
+        },
+        {
+          "key": "akkusystem",
+          "value": "Ego 56 V"
+        },
+        {
+          "key": "spannung",
+          "value": "56"
+        },
+        {
+          "key": "schnittbreite",
+          "value": "47"
+        },
+        {
+          "key": "lieferumfang",
+          "value": "Gerät, Akku, Ladegerät"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/mower-1.svg",
+          "alt": "Ego Akku-Rasenmäher 47 cm, 56 V, Set"
+        },
+        {
+          "url": "/images/placeholder/mower-2.svg",
+          "alt": "Ego Akku-Rasenmäher 47 cm, 56 V, Set – Detailansicht"
+        }
+      ],
+      "ean": "2000001000250",
+      "mpn": "BSP-GF-3020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isNew": true,
+      "weightGrams": 26000,
+      "shippingClass": "SPEDITION"
+    },
+    {
+      "sku": "GF-3030",
+      "name": "Idealspaten Gärtnerspaten mit Eschenstiel",
+      "brand": "Idealspaten",
+      "categories": ["garten-und-forst/gartenwerkzeuge"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Geschmiedetes Spatenblatt mit T-Griff aus heimischer Esche – ein Werkzeug fürs Leben.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Stahl / Eschenholz"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/tool-1.svg",
+          "alt": "Idealspaten Gärtnerspaten mit Eschenstiel"
+        },
+        {
+          "url": "/images/placeholder/tool-2.svg",
+          "alt": "Idealspaten Gärtnerspaten mit Eschenstiel – Detailansicht"
+        }
+      ],
+      "ean": "2000001000267",
+      "mpn": "BSP-GF-3030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 2100,
+      "isBestseller": true
+    },
+    {
+      "sku": "GF-3050",
+      "name": "Gartenschlauch 1/2\", 25 m, gewebeverstärkt",
+      "categories": ["garten-und-forst/schlauchtechnik"],
+      "priceGross": 29.9,
+      "taxRate": 19,
+      "description": "Mehrlagiger Schlauch mit Gewebeeinlage – knickarm und druckfest.",
+      "attributes": [
+        {
+          "key": "durchmesser",
+          "value": "13"
+        },
+        {
+          "key": "laenge-m",
+          "value": "25"
+        },
+        {
+          "key": "farbe",
+          "value": "grün"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/hose-1.svg",
+          "alt": "Gartenschlauch 1/2\", 25 m, gewebeverstärkt"
+        },
+        {
+          "url": "/images/placeholder/hose-2.svg",
+          "alt": "Gartenschlauch 1/2\", 25 m, gewebeverstärkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000298",
+      "mpn": "BSP-GF-3050",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 3500
+    },
+    {
+      "sku": "GF-3060",
+      "name": "Alu-Mehrzweckleiter 3 x 8 Sprossen",
+      "categories": ["garten-und-forst/leitern"],
+      "priceGross": 149.0,
+      "taxRate": 19,
+      "description": "Als Anlege-, Steh- und Treppenleiter einsetzbar. Geprüft nach DIN EN 131.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Aluminium"
+        },
+        {
+          "key": "norm",
+          "value": "DIN EN 131"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/ladder-1.svg",
+          "alt": "Alu-Mehrzweckleiter 3 x 8 Sprossen"
+        },
+        {
+          "url": "/images/placeholder/ladder-2.svg",
+          "alt": "Alu-Mehrzweckleiter 3 x 8 Sprossen – Detailansicht"
+        }
+      ],
+      "ean": "2000001000304",
+      "mpn": "BSP-GF-3060",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 12000
+    },
+    {
+      "sku": "EL-4001",
+      "name": "LED-Baustrahler 50 W, IP65, mit Stativ",
+      "categories": ["elektro/beleuchtung"],
+      "priceGross": 59.9,
+      "taxRate": 19,
+      "description": "Helles, robustes Arbeitslicht für Baustelle und Werkstatt. Höhenverstellbares Stativ, 5 m Anschlussleitung.",
+      "attributes": [
+        {
+          "key": "leistung",
+          "value": "50"
+        },
+        {
+          "key": "spannung",
+          "value": "230"
+        },
+        {
+          "key": "schutzart",
+          "value": "IP65"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/light-1.svg",
+          "alt": "LED-Baustrahler 50 W, IP65, mit Stativ"
+        },
+        {
+          "url": "/images/placeholder/light-2.svg",
+          "alt": "LED-Baustrahler 50 W, IP65, mit Stativ – Detailansicht"
+        }
+      ],
+      "ean": "2000001000335",
+      "mpn": "BSP-EL-4001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 4200,
+      "isBestseller": true
+    },
+    {
+      "sku": "EL-4010",
+      "name": "Infrarotheizung 600 W, 60 x 100 cm, weiß",
+      "categories": ["elektro/infrarotheizung"],
+      "priceGross": 249.0,
+      "taxRate": 19,
+      "description": "Flache Strahlungsheizung für Wand- oder Deckenmontage – angenehme Wärme ohne Luftzug.",
+      "attributes": [
+        {
+          "key": "leistung",
+          "value": "600"
+        },
+        {
+          "key": "spannung",
+          "value": "230"
+        },
+        {
+          "key": "abmessung",
+          "value": "600 x 1000 mm"
+        },
+        {
+          "key": "farbe",
+          "value": "weiß"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/heater-1.svg",
+          "alt": "Infrarotheizung 600 W, 60 x 100 cm, weiß"
+        },
+        {
+          "url": "/images/placeholder/heater-2.svg",
+          "alt": "Infrarotheizung 600 W, 60 x 100 cm, weiß – Detailansicht"
+        }
+      ],
+      "ean": "2000001000342",
+      "mpn": "BSP-EL-4010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 11000,
+      "isNew": true
+    },
+    {
+      "sku": "AS-5001-M",
+      "name": "FHB Arbeitsjacke, anthrazit, Größe M",
+      "brand": "FHB",
+      "categories": ["arbeitsschutz/arbeitskleidung"],
+      "priceGross": 79.9,
+      "taxRate": 19,
+      "description": "Strapazierfähige Arbeitsjacke mit vielen Taschen, verstärkten Nähten und Stehkragen – für Bau, Holz und Werkstatt.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "M",
+          "variantAxis": true
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit"
+        },
+        {
+          "key": "material",
+          "value": "Baumwoll-Polyester-Mischgewebe"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/workwear-1.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe M"
+        },
+        {
+          "url": "/images/placeholder/workwear-2.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe M – Detailansicht"
+        }
+      ],
+      "ean": "2000001000373",
+      "mpn": "BSP-AS-5001-M",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "AS-FHB-JACKE",
+      "isTopProduct": true,
+      "weightGrams": 900
+    },
+    {
+      "sku": "AS-5001-L",
+      "name": "FHB Arbeitsjacke, anthrazit, Größe L",
+      "brand": "FHB",
+      "categories": ["arbeitsschutz/arbeitskleidung"],
+      "priceGross": 79.9,
+      "taxRate": 19,
+      "description": "Strapazierfähige Arbeitsjacke mit vielen Taschen, verstärkten Nähten und Stehkragen – für Bau, Holz und Werkstatt.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "L",
+          "variantAxis": true
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit"
+        },
+        {
+          "key": "material",
+          "value": "Baumwoll-Polyester-Mischgewebe"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/workwear-1.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe L"
+        },
+        {
+          "url": "/images/placeholder/workwear-2.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe L – Detailansicht"
+        }
+      ],
+      "ean": "2000001000380",
+      "mpn": "BSP-AS-5001-L",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "AS-FHB-JACKE",
+      "isTopProduct": false,
+      "weightGrams": 900
+    },
+    {
+      "sku": "AS-5001-XL",
+      "name": "FHB Arbeitsjacke, anthrazit, Größe XL",
+      "brand": "FHB",
+      "categories": ["arbeitsschutz/arbeitskleidung"],
+      "priceGross": 79.9,
+      "taxRate": 19,
+      "description": "Strapazierfähige Arbeitsjacke mit vielen Taschen, verstärkten Nähten und Stehkragen – für Bau, Holz und Werkstatt.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "XL",
+          "variantAxis": true
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit"
+        },
+        {
+          "key": "material",
+          "value": "Baumwoll-Polyester-Mischgewebe"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/workwear-1.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe XL"
+        },
+        {
+          "url": "/images/placeholder/workwear-2.svg",
+          "alt": "FHB Arbeitsjacke, anthrazit, Größe XL – Detailansicht"
+        }
+      ],
+      "ean": "2000001000397",
+      "mpn": "BSP-AS-5001-XL",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "AS-FHB-JACKE",
+      "isTopProduct": false,
+      "weightGrams": 900
+    },
+    {
+      "sku": "AS-5010-42",
+      "name": "Puma Sicherheitsschuh S3, Größe 42",
+      "brand": "Puma",
+      "categories": ["arbeitsschutz/arbeitsschuhe"],
+      "priceGross": 109.0,
+      "taxRate": 19,
+      "description": "Sportlicher Sicherheitsschuh mit Zehenschutzkappe und durchtrittsicherer Sohle.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "42",
+          "variantAxis": true
+        },
+        {
+          "key": "schutzklasse",
+          "value": "S3"
+        },
+        {
+          "key": "norm",
+          "value": "EN ISO 20345"
+        },
+        {
+          "key": "farbe",
+          "value": "schwarz"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/shoe-1.svg",
+          "alt": "Puma Sicherheitsschuh S3, Größe 42"
+        },
+        {
+          "url": "/images/placeholder/shoe-2.svg",
+          "alt": "Puma Sicherheitsschuh S3, Größe 42 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000403",
+      "mpn": "BSP-AS-5010-42",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "AS-PUMA-S3",
+      "weightGrams": 1400
+    },
+    {
+      "sku": "AS-5010-43",
+      "name": "Puma Sicherheitsschuh S3, Größe 43",
+      "brand": "Puma",
+      "categories": ["arbeitsschutz/arbeitsschuhe"],
+      "priceGross": 109.0,
+      "taxRate": 19,
+      "description": "Sportlicher Sicherheitsschuh mit Zehenschutzkappe und durchtrittsicherer Sohle.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "43",
+          "variantAxis": true
+        },
+        {
+          "key": "schutzklasse",
+          "value": "S3"
+        },
+        {
+          "key": "norm",
+          "value": "EN ISO 20345"
+        },
+        {
+          "key": "farbe",
+          "value": "schwarz"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/shoe-1.svg",
+          "alt": "Puma Sicherheitsschuh S3, Größe 43"
+        },
+        {
+          "url": "/images/placeholder/shoe-2.svg",
+          "alt": "Puma Sicherheitsschuh S3, Größe 43 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000410",
+      "mpn": "BSP-AS-5010-43",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "AS-PUMA-S3",
+      "weightGrams": 1400
+    },
+    {
+      "sku": "AS-5030",
+      "name": "3M Kapselgehörschutz",
+      "brand": "3M",
+      "categories": ["arbeitsschutz/schutzausstattung"],
+      "priceGross": 29.9,
+      "taxRate": 19,
+      "description": "Bequemer Gehörschutz für Motorsäge, Freischneider und Werkstatt.",
+      "attributes": [
+        {
+          "key": "norm",
+          "value": "EN 352-1"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/ppe-1.svg",
+          "alt": "3M Kapselgehörschutz"
+        },
+        {
+          "url": "/images/placeholder/ppe-2.svg",
+          "alt": "3M Kapselgehörschutz – Detailansicht"
+        }
+      ],
+      "ean": "2000001000434",
+      "mpn": "BSP-AS-5030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 300
+    },
+    {
+      "sku": "AS-5031",
+      "name": "3M Atemschutzmaske FFP2 mit Ventil, 10 Stück",
+      "brand": "3M",
+      "categories": ["arbeitsschutz/schutzausstattung"],
+      "priceGross": 19.9,
+      "taxRate": 19,
+      "description": "Partikelfiltrierende Halbmaske für Schleif- und Abbrucharbeiten.",
+      "attributes": [
+        {
+          "key": "schutzklasse",
+          "value": "FFP2"
+        },
+        {
+          "key": "norm",
+          "value": "EN 149"
+        },
+        {
+          "key": "inhalt",
+          "value": "10 Stück"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/ppe-1.svg",
+          "alt": "3M Atemschutzmaske FFP2 mit Ventil, 10 Stück"
+        },
+        {
+          "url": "/images/placeholder/ppe-2.svg",
+          "alt": "3M Atemschutzmaske FFP2 mit Ventil, 10 Stück – Detailansicht"
+        }
+      ],
+      "ean": "2000001000441",
+      "mpn": "BSP-AS-5031",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 250
+    },
+    {
+      "sku": "AS-5040",
+      "name": "Warnschutzweste Klasse 2, gelb",
+      "categories": ["arbeitsschutz/warn-und-wetterschutz"],
+      "priceGross": 4.9,
+      "taxRate": 19,
+      "description": "Mit Klettverschluss und reflektierenden Streifen – Pflicht im Auto, Standard auf der Baustelle.",
+      "attributes": [
+        {
+          "key": "norm",
+          "value": "EN ISO 20471"
+        },
+        {
+          "key": "schutzklasse",
+          "value": "Klasse 2"
+        },
+        {
+          "key": "farbe",
+          "value": "gelb"
+        },
+        {
+          "key": "groesse",
+          "value": "Einheitsgröße"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/workwear-1.svg",
+          "alt": "Warnschutzweste Klasse 2, gelb"
+        },
+        {
+          "url": "/images/placeholder/workwear-2.svg",
+          "alt": "Warnschutzweste Klasse 2, gelb – Detailansicht"
+        }
+      ],
+      "ean": "2000001000458",
+      "mpn": "BSP-AS-5040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 120
+    },
+    {
+      "sku": "ST-6001",
+      "name": "Burg-Wächter secuENTRY Elektronischer Türzylinder",
+      "brand": "Burg-Wächter",
+      "categories": ["sicherheitstechnik/burg-waechter", "sicherheitstechnik/tuerschloesser"],
+      "priceGross": 299.0,
+      "taxRate": 19,
+      "description": "Schlüssellos öffnen per Code oder App – nachrüstbar in vorhandene Türen mit Profilzylinder. Gern beraten wir Sie zur passenden Zylinderlänge.",
+      "attributes": [
+        {
+          "key": "oeffnungsart",
+          "value": "PIN-Code / App"
+        },
+        {
+          "key": "material",
+          "value": "Metall / Kunststoff"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/lock-1.svg",
+          "alt": "Burg-Wächter secuENTRY Elektronischer Türzylinder"
+        },
+        {
+          "url": "/images/placeholder/lock-2.svg",
+          "alt": "Burg-Wächter secuENTRY Elektronischer Türzylinder – Detailansicht"
+        }
+      ],
+      "ean": "2000001000472",
+      "mpn": "BSP-ST-6001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isTopProduct": true,
+      "weightGrams": 1200
+    },
+    {
+      "sku": "ST-6002",
+      "name": "Abus Vorhängeschloss Granit 37/55",
+      "brand": "Abus",
+      "categories": ["sicherheitstechnik/abus"],
+      "priceGross": 69.9,
+      "taxRate": 19,
+      "description": "Massives Hochsicherheits-Vorhangschloss für Tore, Container und Baustellen.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Spezialstahl"
+        },
+        {
+          "key": "sicherheitsstufe",
+          "value": "hoch"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/lock-1.svg",
+          "alt": "Abus Vorhängeschloss Granit 37/55"
+        },
+        {
+          "url": "/images/placeholder/lock-2.svg",
+          "alt": "Abus Vorhängeschloss Granit 37/55 – Detailansicht"
+        }
+      ],
+      "ean": "2000001000489",
+      "mpn": "BSP-ST-6002",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 500
+    },
+    {
+      "sku": "ST-6010",
+      "name": "Atlas Möbeltresor, Elektronikschloss, ca. 35 l",
+      "brand": "Atlas",
+      "categories": ["sicherheitstechnik/atlas-tresore"],
+      "priceGross": 229.0,
+      "taxRate": 19,
+      "description": "Kompakter Tresor zum Einbau in Schrank oder Regal, mit Verankerungsmaterial.",
+      "attributes": [
+        {
+          "key": "oeffnungsart",
+          "value": "Elektronikschloss"
+        },
+        {
+          "key": "inhalt",
+          "value": "ca. 35 l"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/safe-1.svg",
+          "alt": "Atlas Möbeltresor, Elektronikschloss, ca. 35 l"
+        },
+        {
+          "url": "/images/placeholder/safe-2.svg",
+          "alt": "Atlas Möbeltresor, Elektronikschloss, ca. 35 l – Detailansicht"
+        }
+      ],
+      "ean": "2000001000496",
+      "mpn": "BSP-ST-6010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 22000,
+      "shippingClass": "SPEDITION",
+      "containsBattery": true
+    },
+    {
+      "sku": "ST-6020",
+      "name": "Safire IP-Bullet-Kamera 4 MP",
+      "brand": "Safire",
+      "categories": ["sicherheitstechnik/safire"],
+      "priceGross": 149.0,
+      "taxRate": 19,
+      "description": "Wetterfeste Überwachungskamera für Hof, Halle und Einfahrt.",
+      "attributes": [
+        {
+          "key": "schutzart",
+          "value": "IP67"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/camera-1.svg",
+          "alt": "Safire IP-Bullet-Kamera 4 MP"
+        },
+        {
+          "url": "/images/placeholder/camera-2.svg",
+          "alt": "Safire IP-Bullet-Kamera 4 MP – Detailansicht"
+        }
+      ],
+      "ean": "2000001000502",
+      "mpn": "BSP-ST-6020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 700
+    },
+    {
+      "sku": "ST-6030",
+      "name": "Vosker V300 LTE-Baustellenkamera mit Solarpanel",
+      "brand": "Vosker",
+      "categories": ["sicherheitstechnik/vosker-baustellenueberwachung"],
+      "priceGross": 549.0,
+      "taxRate": 19,
+      "description": "Autarke Überwachung ohne Strom- und WLAN-Anschluss – ideal für Baustellen, Lagerplätze und Weiden.",
+      "attributes": [
+        {
+          "key": "schutzart",
+          "value": "IP65"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/camera-1.svg",
+          "alt": "Vosker V300 LTE-Baustellenkamera mit Solarpanel"
+        },
+        {
+          "url": "/images/placeholder/camera-2.svg",
+          "alt": "Vosker V300 LTE-Baustellenkamera mit Solarpanel – Detailansicht"
+        }
+      ],
+      "ean": "2000001000519",
+      "mpn": "BSP-ST-6030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "isNew": true,
+      "weightGrams": 1500
+    },
+    {
+      "sku": "ST-6040",
+      "name": "Einsteckschloss PZ, Dornmaß 55 mm, DIN links/rechts",
+      "categories": ["sicherheitstechnik/tuerschloesser"],
+      "priceGross": 19.9,
+      "taxRate": 19,
+      "description": "Zimmertür-Einsteckschloss für Profilzylinder, wechselbare Falle.",
+      "attributes": [
+        {
+          "key": "din-richtung",
+          "value": "links/rechts"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/lock-1.svg",
+          "alt": "Einsteckschloss PZ, Dornmaß 55 mm, DIN links/rechts"
+        },
+        {
+          "url": "/images/placeholder/lock-2.svg",
+          "alt": "Einsteckschloss PZ, Dornmaß 55 mm, DIN links/rechts – Detailansicht"
+        }
+      ],
+      "ean": "2000001000526",
+      "mpn": "BSP-ST-6040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 400
+    },
+    {
+      "sku": "TT-7001",
+      "name": "Hörmann Handsender HSE 4 BS",
+      "brand": "Hörmann",
+      "categories": ["tore-und-tueren/hoermann"],
+      "priceGross": 49.9,
+      "taxRate": 19,
+      "description": "Handsender für Hörmann-Antriebe mit BiSecur-Funk. Wir helfen beim Anlernen.",
+      "attributes": [
+        {
+          "key": "farbe",
+          "value": "schwarz"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/electric-1.svg",
+          "alt": "Hörmann Handsender HSE 4 BS"
+        },
+        {
+          "url": "/images/placeholder/electric-2.svg",
+          "alt": "Hörmann Handsender HSE 4 BS – Detailansicht"
+        }
+      ],
+      "ean": "2000001000533",
+      "mpn": "BSP-TT-7001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "containsBattery": true,
+      "weightGrams": 50
+    },
+    {
+      "sku": "TT-7010",
+      "name": "Drückergarnitur Edelstahl, Rosette, für Profilzylinder",
+      "categories": ["tore-und-tueren/drueckergarnituren"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Zeitlose L-Form, gebürsteter Edelstahl, inkl. Befestigungsmaterial.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Edelstahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "gebürstet"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/door-1.svg",
+          "alt": "Drückergarnitur Edelstahl, Rosette, für Profilzylinder"
+        },
+        {
+          "url": "/images/placeholder/door-2.svg",
+          "alt": "Drückergarnitur Edelstahl, Rosette, für Profilzylinder – Detailansicht"
+        }
+      ],
+      "ean": "2000001000540",
+      "mpn": "BSP-TT-7010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 600
+    },
+    {
+      "sku": "ZA-8001-1030",
+      "name": "Doppelstabmatte 6/5/6, 2500 x 1030 mm, anthrazit",
+      "categories": ["zaeune/doppelstabmatten"],
+      "priceGross": 49.9,
+      "taxRate": 19,
+      "description": "Stabile Zaunmatte mit Doppeldrähten 6 mm und Mitteldraht 5 mm, verzinkt und pulverbeschichtet in RAL 7016. Lieferung per Spedition – ab Lager Aurich auch zur Abholung.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "1030",
+          "variantAxis": true
+        },
+        {
+          "key": "drahtstaerke",
+          "value": "6/5/6"
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit RAL 7016"
+        },
+        {
+          "key": "laenge",
+          "value": "2500"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt + pulverbeschichtet"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1030 mm, anthrazit"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1030 mm, anthrazit – Detailansicht"
+        }
+      ],
+      "ean": "2000001000557",
+      "mpn": "BSP-ZA-8001-1030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "ZA-DSM-656",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 14420,
+      "isBestseller": false,
+      "related": ["ZA-8050", "ZA-8030"]
+    },
+    {
+      "sku": "ZA-8001-1230",
+      "name": "Doppelstabmatte 6/5/6, 2500 x 1230 mm, anthrazit",
+      "categories": ["zaeune/doppelstabmatten"],
+      "priceGross": 54.9,
+      "taxRate": 19,
+      "description": "Stabile Zaunmatte mit Doppeldrähten 6 mm und Mitteldraht 5 mm, verzinkt und pulverbeschichtet in RAL 7016. Lieferung per Spedition – ab Lager Aurich auch zur Abholung.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "1230",
+          "variantAxis": true
+        },
+        {
+          "key": "drahtstaerke",
+          "value": "6/5/6"
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit RAL 7016"
+        },
+        {
+          "key": "laenge",
+          "value": "2500"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt + pulverbeschichtet"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1230 mm, anthrazit"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1230 mm, anthrazit – Detailansicht"
+        }
+      ],
+      "ean": "2000001000564",
+      "mpn": "BSP-ZA-8001-1230",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "ZA-DSM-656",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 17220,
+      "isBestseller": true,
+      "related": ["ZA-8050", "ZA-8030"]
+    },
+    {
+      "sku": "ZA-8001-1630",
+      "name": "Doppelstabmatte 6/5/6, 2500 x 1630 mm, anthrazit",
+      "categories": ["zaeune/doppelstabmatten"],
+      "priceGross": 69.9,
+      "taxRate": 19,
+      "description": "Stabile Zaunmatte mit Doppeldrähten 6 mm und Mitteldraht 5 mm, verzinkt und pulverbeschichtet in RAL 7016. Lieferung per Spedition – ab Lager Aurich auch zur Abholung.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "1630",
+          "variantAxis": true
+        },
+        {
+          "key": "drahtstaerke",
+          "value": "6/5/6"
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit RAL 7016"
+        },
+        {
+          "key": "laenge",
+          "value": "2500"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt + pulverbeschichtet"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1630 mm, anthrazit"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Doppelstabmatte 6/5/6, 2500 x 1630 mm, anthrazit – Detailansicht"
+        }
+      ],
+      "ean": "2000001000571",
+      "mpn": "BSP-ZA-8001-1630",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "variantGroup": "ZA-DSM-656",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 22820,
+      "isBestseller": false,
+      "related": ["ZA-8050", "ZA-8030"]
+    },
+    {
+      "sku": "ZA-8020",
+      "name": "Betafence Pantanet Zaunelement, 2000 x 1230 mm",
+      "brand": "Betafence",
+      "categories": ["zaeune/betafence-pantanet"],
+      "priceGross": 79.9,
+      "taxRate": 19,
+      "description": "Zaunsystem mit V-Profilierung für zusätzliche Stabilität – für Firmengelände, Schulen und Gärten.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "1230"
+        },
+        {
+          "key": "farbe",
+          "value": "grün"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Betafence Pantanet Zaunelement, 2000 x 1230 mm"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Betafence Pantanet Zaunelement, 2000 x 1230 mm – Detailansicht"
+        }
+      ],
+      "ean": "2000001000595",
+      "mpn": "BSP-ZA-8020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 15000
+    },
+    {
+      "sku": "ZA-8030",
+      "name": "Sichtschutzstreifen anthrazit, 19 cm x 35 m",
+      "categories": ["zaeune/sichtschutz"],
+      "priceGross": 29.9,
+      "taxRate": 19,
+      "description": "Zum Einflechten in Doppelstabmatten – inklusive Befestigungsclips.",
+      "attributes": [
+        {
+          "key": "farbe",
+          "value": "anthrazit"
+        },
+        {
+          "key": "laenge-m",
+          "value": "35"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Sichtschutzstreifen anthrazit, 19 cm x 35 m"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Sichtschutzstreifen anthrazit, 19 cm x 35 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000601",
+      "mpn": "BSP-ZA-8030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 2500
+    },
+    {
+      "sku": "ZA-8040",
+      "name": "Wildzaun Knotengeflecht 160/23/15, 50 m",
+      "categories": ["zaeune/wildzaun"],
+      "priceGross": 149.0,
+      "taxRate": 19,
+      "description": "Forst- und Weidezaun mit Knotengeflecht, nach unten enger werdende Maschen.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "1600"
+        },
+        {
+          "key": "laenge-m",
+          "value": "50"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Wildzaun Knotengeflecht 160/23/15, 50 m"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Wildzaun Knotengeflecht 160/23/15, 50 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000618",
+      "mpn": "BSP-ZA-8040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 30000
+    },
+    {
+      "sku": "ZA-8050",
+      "name": "Zaunpfosten für Doppelstabmatten 60 x 40 mm, 2000 mm, anthrazit",
+      "categories": ["zaeune/zaunpfosten"],
+      "priceGross": 24.9,
+      "taxRate": 19,
+      "description": "Rechteckpfosten mit Abdeckkappe und Klemmhaltern zum Einbetonieren.",
+      "attributes": [
+        {
+          "key": "hoehe",
+          "value": "2000"
+        },
+        {
+          "key": "farbe",
+          "value": "anthrazit RAL 7016"
+        },
+        {
+          "key": "material",
+          "value": "Stahl"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/fence-1.svg",
+          "alt": "Zaunpfosten für Doppelstabmatten 60 x 40 mm, 2000 mm, anthrazit"
+        },
+        {
+          "url": "/images/placeholder/fence-2.svg",
+          "alt": "Zaunpfosten für Doppelstabmatten 60 x 40 mm, 2000 mm, anthrazit – Detailansicht"
+        }
+      ],
+      "ean": "2000001000625",
+      "mpn": "BSP-ZA-8050",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 4500
+    },
+    {
+      "sku": "BB-9001",
+      "name": "Makita Akku-Bohrschrauber DDF485Z 18 V, ohne Akku",
+      "brand": "Makita",
+      "categories": ["baubedarf/elektrowerkzeug"],
+      "priceGross": 119.0,
+      "taxRate": 19,
+      "description": "Kompakter bürstenloser Bohrschrauber für das 18-V-LXT-System. Lieferung ohne Akku und Ladegerät.",
+      "attributes": [
+        {
+          "key": "akkusystem",
+          "value": "Makita 18 V LXT"
+        },
+        {
+          "key": "spannung",
+          "value": "18"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/drill-1.svg",
+          "alt": "Makita Akku-Bohrschrauber DDF485Z 18 V, ohne Akku"
+        },
+        {
+          "url": "/images/placeholder/drill-2.svg",
+          "alt": "Makita Akku-Bohrschrauber DDF485Z 18 V, ohne Akku – Detailansicht"
+        }
+      ],
+      "ean": "2000001000649",
+      "mpn": "BSP-BB-9001",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isBestseller": true,
+      "weightGrams": 1700
+    },
+    {
+      "sku": "BB-9010",
+      "name": "Layher Rollgerüst Uni Standard, Arbeitshöhe ca. 5 m",
+      "brand": "Layher",
+      "categories": ["baubedarf/rollgerueste"],
+      "priceGross": 1199.0,
+      "taxRate": 19,
+      "description": "Aluminium-Rollgerüst für Maler, Elektriker und Handwerk. Werkzeuglose Montage, Lieferung per Spedition.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Aluminium"
+        },
+        {
+          "key": "norm",
+          "value": "DIN EN 1004"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/scaffold-1.svg",
+          "alt": "Layher Rollgerüst Uni Standard, Arbeitshöhe ca. 5 m"
+        },
+        {
+          "url": "/images/placeholder/scaffold-2.svg",
+          "alt": "Layher Rollgerüst Uni Standard, Arbeitshöhe ca. 5 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000656",
+      "mpn": "BSP-BB-9010",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 95000,
+      "stockStatus": "ON_REQUEST",
+      "deliveryTime": "ca. 2 Wochen nach Bestellung"
+    },
+    {
+      "sku": "BB-9020",
+      "name": "Dachrinne Zink halbrund, 333 mm, 3 m",
+      "categories": ["baubedarf/dachentwaesserung"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Titanzink-Dachrinne Nennmaß 333 für Einfamilienhaus, Carport und Garage.",
+      "attributes": [
+        {
+          "key": "material",
+          "value": "Titanzink"
+        },
+        {
+          "key": "laenge",
+          "value": "3000"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/gutter-1.svg",
+          "alt": "Dachrinne Zink halbrund, 333 mm, 3 m"
+        },
+        {
+          "url": "/images/placeholder/gutter-2.svg",
+          "alt": "Dachrinne Zink halbrund, 333 mm, 3 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000663",
+      "mpn": "BSP-BB-9020",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 4500,
+      "shippingClass": "SPEDITION"
+    },
+    {
+      "sku": "BB-9030",
+      "name": "KG-Rohr DN 110, 1 m",
+      "categories": ["baubedarf/abwasser"],
+      "priceGross": 6.9,
+      "taxRate": 19,
+      "description": "Kanalgrundrohr nach DIN EN 1401 für erdverlegte Abwasserleitungen.",
+      "attributes": [
+        {
+          "key": "durchmesser",
+          "value": "110"
+        },
+        {
+          "key": "laenge",
+          "value": "1000"
+        },
+        {
+          "key": "material",
+          "value": "PVC-U"
+        },
+        {
+          "key": "farbe",
+          "value": "orange-braun"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/pipe-1.svg",
+          "alt": "KG-Rohr DN 110, 1 m"
+        },
+        {
+          "url": "/images/placeholder/pipe-2.svg",
+          "alt": "KG-Rohr DN 110, 1 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000670",
+      "mpn": "BSP-BB-9030",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 1500
+    },
+    {
+      "sku": "BB-9040",
+      "name": "Absperrschranke rot/weiß, 2 m",
+      "categories": ["baubedarf/baustellenabsicherung"],
+      "priceGross": 49.9,
+      "taxRate": 19,
+      "description": "Kunststoff-Schrankenzaun für Baustellen- und Gefahrenstellen, stapelbar.",
+      "attributes": [
+        {
+          "key": "laenge",
+          "value": "2000"
+        },
+        {
+          "key": "farbe",
+          "value": "rot/weiß"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/construction-1.svg",
+          "alt": "Absperrschranke rot/weiß, 2 m"
+        },
+        {
+          "url": "/images/placeholder/construction-2.svg",
+          "alt": "Absperrschranke rot/weiß, 2 m – Detailansicht"
+        }
+      ],
+      "ean": "2000001000687",
+      "mpn": "BSP-BB-9040",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 7000
+    },
+    {
+      "sku": "BB-9080",
+      "name": "MEA Kellerlichtschacht 100 x 60 x 40 cm mit Rost",
+      "brand": "MEA",
+      "categories": ["baubedarf/hausanschluss"],
+      "priceGross": 119.0,
+      "taxRate": 19,
+      "description": "Kunststoff-Lichtschacht inklusive Gitterrost, für Kellerfenster im Neubau und bei Sanierung.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "1000 x 600 x 400 mm"
+        },
+        {
+          "key": "material",
+          "value": "Kunststoff"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "MEA Kellerlichtschacht 100 x 60 x 40 cm mit Rost"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "MEA Kellerlichtschacht 100 x 60 x 40 cm mit Rost – Detailansicht"
+        }
+      ],
+      "ean": "2000001000724",
+      "mpn": "BSP-BB-9080",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "shippingClass": "SPEDITION",
+      "weightGrams": 15000,
+      "related": ["GR-1061"]
+    },
+    {
+      "sku": "AZ-1101",
+      "name": "Stützrad verzinkt, Rohr 48 mm, Vollgummirad",
+      "categories": ["anhaengerzubehoer"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Zum Rangieren von Pkw-Anhängern, mit Klemmhalter.",
+      "attributes": [
+        {
+          "key": "durchmesser",
+          "value": "48"
+        },
+        {
+          "key": "belastung",
+          "value": "150 kg Stützlast"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "verzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/trailer-1.svg",
+          "alt": "Stützrad verzinkt, Rohr 48 mm, Vollgummirad"
+        },
+        {
+          "url": "/images/placeholder/trailer-2.svg",
+          "alt": "Stützrad verzinkt, Rohr 48 mm, Vollgummirad – Detailansicht"
+        }
+      ],
+      "ean": "2000001000731",
+      "mpn": "BSP-AZ-1101",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 4500
+    },
+    {
+      "sku": "AZ-1102",
+      "name": "Spanngurte 5 m, 2-teilig, 4 Stück",
+      "categories": ["anhaengerzubehoer"],
+      "priceGross": 24.9,
+      "taxRate": 19,
+      "description": "Ratschengurte zur Ladungssicherung, nach EN 12195-2.",
+      "attributes": [
+        {
+          "key": "norm",
+          "value": "EN 12195-2"
+        },
+        {
+          "key": "inhalt",
+          "value": "4 Stück"
+        },
+        {
+          "key": "laenge-m",
+          "value": "5"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/trailer-1.svg",
+          "alt": "Spanngurte 5 m, 2-teilig, 4 Stück"
+        },
+        {
+          "url": "/images/placeholder/trailer-2.svg",
+          "alt": "Spanngurte 5 m, 2-teilig, 4 Stück – Detailansicht"
+        }
+      ],
+      "ean": "2000001000748",
+      "mpn": "BSP-AZ-1102",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "weightGrams": 3000,
+      "isBestseller": true
+    },
+    {
+      "sku": "FG-1201",
+      "name": "Restposten: Gitterrost 800 x 600 mm, MW 30/30, verzinkt",
+      "categories": ["fundgrube", "gitterroste/normroste"],
+      "priceGross": 29.0,
+      "taxRate": 19,
+      "description": "Einzelstück aus Lagerbereinigung, neuwertig. Nur solange der Vorrat reicht – Abholung in Aurich möglich.",
+      "attributes": [
+        {
+          "key": "abmessung",
+          "value": "800 x 600 mm"
+        },
+        {
+          "key": "maschenweite",
+          "value": "30 x 30"
+        },
+        {
+          "key": "tragstab",
+          "value": "25 x 2"
+        },
+        {
+          "key": "oberflaeche",
+          "value": "feuerverzinkt"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/grating-1.svg",
+          "alt": "Restposten: Gitterrost 800 x 600 mm, MW 30/30, verzinkt"
+        },
+        {
+          "url": "/images/placeholder/grating-2.svg",
+          "alt": "Restposten: Gitterrost 800 x 600 mm, MW 30/30, verzinkt – Detailansicht"
+        }
+      ],
+      "ean": "2000001000762",
+      "mpn": "BSP-FG-1201",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isClearance": true,
+      "stockStatus": "LOW_STOCK",
+      "stockQuantity": 3,
+      "weightGrams": 10000
+    },
+    {
+      "sku": "FG-1202",
+      "name": "Restposten: Arbeitsjacke, grau, Größe S",
+      "categories": ["fundgrube", "arbeitsschutz/arbeitskleidung"],
+      "priceGross": 39.9,
+      "taxRate": 19,
+      "description": "Auslaufmodell in Größe S – Einzelstücke zum Sonderpreis.",
+      "attributes": [
+        {
+          "key": "groesse",
+          "value": "S"
+        },
+        {
+          "key": "farbe",
+          "value": "grau"
+        }
+      ],
+      "images": [
+        {
+          "url": "/images/placeholder/workwear-1.svg",
+          "alt": "Restposten: Arbeitsjacke, grau, Größe S"
+        },
+        {
+          "url": "/images/placeholder/workwear-2.svg",
+          "alt": "Restposten: Arbeitsjacke, grau, Größe S – Detailansicht"
+        }
+      ],
+      "ean": "2000001000779",
+      "mpn": "BSP-FG-1202",
+      "source": "seed:beispiel",
+      "rights": "Beispieldaten für die Entwicklung – Text selbst verfasst, Bild selbst erzeugter Platzhalter",
+      "isClearance": true,
+      "stockStatus": "LOW_STOCK",
+      "stockQuantity": 2,
+      "weightGrams": 900
+    }
+  ]
+}

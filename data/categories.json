@@ -1,0 +1,224 @@
+{
+  "$comment": "Kategoriebaum der Böwe GmbH. Quelle der Wahrheit für den Seed – Änderungen hier und `npm run db:seed` ausführen. 'filters' gilt für die Kategorie und alle Unterkategorien (sofern diese keine eigenen definieren). 'legacySlugs' dienen dem Redirect-Mapping.",
+  "categories": [
+    {
+      "slug": "gitterroste",
+      "name": "Gitterroste",
+      "icon": "grating",
+      "description": "Press- und Schweißpressroste, GFK-Roste und Zubehör – ab Lager oder als Gitterrost nach Maß.",
+      "metaTitle": "Gitterroste kaufen – Normroste, Industrieroste & nach Maß",
+      "metaDescription": "Gitterroste von Böwe aus Aurich: Normroste, Industrie-, GFK-, Garagen- und Lichtschachtroste, Rahmen, Stufen und Zubehör. Auch nach Maß.",
+      "filters": ["maschenweite", "abmessung", "material", "oberflaeche", "tragstab", "belastung"],
+      "children": [
+        { "slug": "normroste", "name": "Normroste", "description": "Pressroste in gängigen Standardmaßen, feuerverzinkt." },
+        {
+          "slug": "industrieroste",
+          "name": "Industrieroste",
+          "description": "Belastbare Schweißpress- und Pressroste für Industrie, Bühnen und Podeste."
+        },
+        {
+          "slug": "gfk-roste",
+          "name": "GFK-Roste",
+          "description": "Korrosionsbeständige Roste aus glasfaserverstärktem Kunststoff."
+        },
+        {
+          "slug": "garagenroste",
+          "name": "Garagenroste",
+          "description": "Befahrbare Roste für Garageneinfahrten und Entwässerungsrinnen."
+        },
+        {
+          "slug": "lichtschachtroste",
+          "name": "Lichtschachtroste",
+          "description": "Abdeckungen für Kellerlichtschächte, auf Wunsch mit Sicherung."
+        },
+        {
+          "slug": "brunnenroste",
+          "name": "Brunnenroste",
+          "description": "Rund- und Rechteckroste zur Abdeckung von Brunnen und Schächten."
+        },
+        { "slug": "podestroste", "name": "Podestroste", "description": "Roste für Podeste, Laufstege und Arbeitsbühnen." },
+        { "slug": "rahmen", "name": "Rahmen", "description": "Einbau- und Auflagerahmen passend zu unseren Rosten." },
+        {
+          "slug": "stufen",
+          "name": "Gitterroststufen",
+          "description": "Treppenstufen aus Gitterrost mit rutschhemmender Kante."
+        },
+        {
+          "slug": "zubehoer",
+          "name": "Gitterrost-Zubehör",
+          "description": "Befestigungsklemmen, Rostsicherungen und Montagezubehör."
+        },
+        { "slug": "entwaesserung", "name": "Entwässerung", "description": "Rinnen und Abdeckungen für die Flächenentwässerung." }
+      ]
+    },
+    {
+      "slug": "eisenwaren",
+      "name": "Eisenwaren",
+      "icon": "hardware",
+      "description": "Das Fundament seit 1924: Beschläge, Schrauben, Ketten, Schweißtechnik und alles, was hält.",
+      "metaTitle": "Eisenwaren – Beschläge, Schrauben, Ketten & Schweißtechnik",
+      "metaDescription": "Eisenwaren vom Fachhändler in Aurich: Beschläge, Pfostenträger, Schiebetorzubehör, Schrauben, Schweißtechnik, Seile, Ketten und Kugellager.",
+      "filters": ["material", "oberflaeche", "abmessung"],
+      "children": [
+        { "slug": "beschlaege", "name": "Beschläge" },
+        { "slug": "pfostentraeger-und-kappen", "name": "Pfostenträger und -kappen" },
+        { "slug": "schiebetorzubehoer", "name": "Schiebetorzubehör" },
+        { "slug": "schrauben", "name": "Schrauben" },
+        { "slug": "schweisstechnik", "name": "Schweißtechnik" },
+        { "slug": "seile-und-ketten", "name": "Seile und Ketten" },
+        { "slug": "kugellager", "name": "Kugellager" }
+      ]
+    },
+    {
+      "slug": "garten-und-forst",
+      "name": "Garten und Forst",
+      "icon": "garden",
+      "description": "Motor- und Akkugeräte, Werkzeug und Zubehör für Garten, Hof und Wald – mit Beratung und Service vor Ort.",
+      "metaTitle": "Garten & Forst – Stihl, Viking, Ego & Gartenwerkzeug",
+      "metaDescription": "Gartengeräte und Forsttechnik in Aurich: Stihl, Viking, Ego, Pellenc, Sunseeker sowie Gartenwerkzeug, Teich- und Schlauchtechnik.",
+      "filters": ["antrieb", "akkusystem", "spannung", "schnittbreite"],
+      "legacySlugs": ["haus-garten", "gartengeraete"],
+      "children": [
+        { "slug": "stihl", "name": "Stihl" },
+        { "slug": "viking", "name": "Viking" },
+        { "slug": "ego", "name": "Ego" },
+        { "slug": "pellenc", "name": "Pellenc" },
+        { "slug": "sunseeker", "name": "Sunseeker" },
+        { "slug": "gartenwerkzeuge", "name": "Gartenwerkzeuge" },
+        { "slug": "stiele", "name": "Stiele" },
+        { "slug": "teichtechnik", "name": "Teichtechnik" },
+        { "slug": "schlauchtechnik", "name": "Schlauchtechnik" },
+        { "slug": "reinigung", "name": "Reinigung" },
+        { "slug": "leitern", "name": "Leitern" },
+        { "slug": "komposter", "name": "Komposter" },
+        { "slug": "fahrradstaender", "name": "Fahrradständer" },
+        { "slug": "ersatzteile", "name": "Ersatzteile Garten" }
+      ]
+    },
+    {
+      "slug": "elektro",
+      "name": "Elektro",
+      "icon": "electric",
+      "description": "Beleuchtung, Infrarotheizung, Raumklima und Stromverteilung für Baustelle, Werkstatt und Zuhause.",
+      "metaTitle": "Elektro – Beleuchtung, Infrarotheizung & Stromverteilung",
+      "metaDescription": "Elektrobedarf bei Böwe: LED-Beleuchtung, Infrarotheizungen, Raumklima, Stromverteiler und Ersatzteile.",
+      "filters": ["leistung", "spannung", "schutzart"],
+      "children": [
+        { "slug": "beleuchtung", "name": "Beleuchtung" },
+        { "slug": "infrarotheizung", "name": "Infrarotheizung" },
+        { "slug": "raumklima", "name": "Raumklima" },
+        { "slug": "stromverteilung", "name": "Stromverteilung" },
+        { "slug": "ersatzteile", "name": "Ersatzteile Elektro" }
+      ]
+    },
+    {
+      "slug": "arbeitsschutz",
+      "name": "Arbeitsschutz",
+      "icon": "safety",
+      "description": "Arbeitskleidung, Sicherheitsschuhe und Schutzausrüstung für jeden Einsatz – von Kopf bis Fuß.",
+      "metaTitle": "Arbeitsschutz – Arbeitskleidung, Sicherheitsschuhe & PSA",
+      "metaDescription": "Arbeitsschutz vom Fachhandel: Arbeitskleidung von FHB, Sicherheitsschuhe von Puma und Albatros, Schutzausstattung von 3M, Warn- und Wetterschutz.",
+      "filters": ["groesse", "farbe", "schutzklasse", "norm"],
+      "legacySlugs": ["https/wwwboewe24de/arbeitskleidung"],
+      "children": [
+        { "slug": "arbeitskleidung", "name": "Arbeitskleidung" },
+        { "slug": "arbeitsschuhe", "name": "Arbeitsschuhe" },
+        { "slug": "schutzausstattung", "name": "Schutzausstattung" },
+        { "slug": "warn-und-wetterschutz", "name": "Warn- und Wetterschutz" },
+        { "slug": "zubehoer", "name": "Arbeitsschutz-Zubehör" }
+      ]
+    },
+    {
+      "slug": "sicherheitstechnik",
+      "name": "Sicherheitstechnik",
+      "icon": "security",
+      "description": "Schlösser, Tresore, elektronische Zylinder und Baustellenüberwachung – geprüfte Sicherheit für Haus und Betrieb.",
+      "metaTitle": "Sicherheitstechnik – Abus, Burg-Wächter, Tresore & Türschlösser",
+      "metaDescription": "Sicherheitstechnik in Aurich: Abus, Burg-Wächter, Atlas Tresore, Safire, Türschlösser und Vosker Baustellenüberwachung.",
+      "filters": ["sicherheitsstufe", "oeffnungsart", "material"],
+      "children": [
+        { "slug": "abus", "name": "Abus" },
+        { "slug": "burg-waechter", "name": "Burg-Wächter" },
+        { "slug": "atlas-tresore", "name": "Atlas Tresore" },
+        { "slug": "safire", "name": "Safire" },
+        { "slug": "tuerschloesser", "name": "Türschlösser" },
+        { "slug": "vosker-baustellenueberwachung", "name": "Vosker Baustellenüberwachung" }
+      ]
+    },
+    {
+      "slug": "tore-und-tueren",
+      "name": "Tore und Türen",
+      "icon": "door",
+      "description": "Garagentore, Haustüren und Beschläge – Hörmann-Produkte und passende Drückergarnituren.",
+      "metaTitle": "Tore & Türen – Hörmann, Drückergarnituren & Türschlösser",
+      "metaDescription": "Tore und Türen von Böwe: Hörmann Garagentore und Türen, Drückergarnituren und Einsteckschlösser.",
+      "filters": ["material", "oberflaeche", "din-richtung"],
+      "children": [
+        { "slug": "hoermann", "name": "Hörmann" },
+        { "slug": "drueckergarnituren", "name": "Drückergarnituren" },
+        { "slug": "tuerschloesser", "name": "Türschlösser", "linkTo": "sicherheitstechnik/tuerschloesser" }
+      ]
+    },
+    {
+      "slug": "zaeune",
+      "name": "Zäune",
+      "icon": "fence",
+      "description": "Doppelstabmatten, Maschendraht, Sichtschutz und Wildzaun – inklusive Pfosten und Zubehör, auf Wunsch per Spedition.",
+      "metaTitle": "Zäune – Doppelstabmatten, Maschendraht, Sichtschutz & Zubehör",
+      "metaDescription": "Zaunsysteme aus Aurich: Betafence Pantanet, Doppelstabmatten, Maschendraht, Schweißgitter, Sichtschutz, Stacheldraht, Wildzaun, Pfosten und Zubehör.",
+      "filters": ["hoehe", "laenge", "farbe", "drahtstaerke"],
+      "children": [
+        { "slug": "betafence-pantanet", "name": "Betafence Pantanet" },
+        { "slug": "doppelstabmatten", "name": "Doppelstabmatten" },
+        { "slug": "maschendraht", "name": "Maschendraht" },
+        { "slug": "schweissgitter", "name": "Schweißgitter" },
+        { "slug": "sichtschutz", "name": "Sichtschutz" },
+        { "slug": "stacheldraht", "name": "Stacheldraht" },
+        { "slug": "wildzaun", "name": "Wildzaun" },
+        { "slug": "zaunpfosten", "name": "Zaunpfosten" },
+        { "slug": "zubehoer", "name": "Zaunzubehör" }
+      ]
+    },
+    {
+      "slug": "baubedarf",
+      "name": "Baubedarf",
+      "icon": "construction",
+      "description": "Vom Abdichten bis zur Schalung: Material und Werkzeug für Baustelle, Holzbau und Hausanschluss.",
+      "metaTitle": "Baubedarf – Werkzeug, Abwasser, Dachentwässerung & Gerüste",
+      "metaDescription": "Baubedarf für Profis und Heimwerker: Abdichten, Abwasser, Baustellenabsicherung, Dachentwässerung, Elektro- und Handwerkzeug, Holzbau, Isolierung, Rollgerüste.",
+      "filters": ["material", "abmessung", "akkusystem", "spannung"],
+      "children": [
+        { "slug": "abdichten", "name": "Abdichten" },
+        { "slug": "abwasser", "name": "Abwasser" },
+        { "slug": "baustellenabsicherung", "name": "Baustellenabsicherung" },
+        { "slug": "dachentwaesserung", "name": "Dachentwässerung" },
+        { "slug": "elektrowerkzeug", "name": "Elektrowerkzeug" },
+        { "slug": "handwerkzeug", "name": "Handwerkzeug" },
+        { "slug": "hausanschluss", "name": "Hausanschluss" },
+        { "slug": "holzbau", "name": "Holzbau" },
+        { "slug": "isolierung", "name": "Isolierung" },
+        { "slug": "rollgerueste", "name": "Rollgerüste" },
+        { "slug": "schalung", "name": "Schalung" },
+        { "slug": "verbinder", "name": "Verbinder" }
+      ]
+    },
+    {
+      "slug": "anhaengerzubehoer",
+      "name": "Anhängerzubehör",
+      "icon": "trailer",
+      "description": "Kupplungen, Stützräder, Spanngurte und Beleuchtung für Pkw-Anhänger.",
+      "metaTitle": "Anhängerzubehör – Stützräder, Kupplungen & Ladungssicherung",
+      "metaDescription": "Anhängerzubehör bei Böwe in Aurich: Stützräder, Kupplungen, Beleuchtung, Planen und Ladungssicherung.",
+      "filters": ["material", "belastung"]
+    },
+    {
+      "slug": "fundgrube",
+      "name": "Fundgrube",
+      "icon": "deal",
+      "description": "Restposten, Auslaufmodelle und Einzelstücke – solange der Vorrat reicht.",
+      "metaTitle": "Fundgrube – Restposten & Einzelstücke",
+      "metaDescription": "Restposten und Auslaufartikel aus dem Lager der Böwe GmbH in Aurich. Nur solange der Vorrat reicht.",
+      "filters": []
+    }
+  ]
+}

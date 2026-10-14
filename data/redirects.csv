@@ -1,0 +1,23 @@
+# Weiterleitungen alte URL (boewe24.de) → neue URL. Wird beim Build geladen (301, permanent).
+# Spalten: source;destination   ·   Kommentarzeilen beginnen mit #
+# Platzhalter wie :slug* sind erlaubt (Next.js-Syntax). Bitte nach Export der alten URL-Liste vervollständigen.
+source;destination
+/https/wwwboewe24de/arbeitskleidung/;/shop/arbeitsschutz/arbeitskleidung
+/haus-garten/;/shop/garten-und-forst
+/haus-garten/gartengeraete/;/shop/garten-und-forst
+/gartengeraete/;/shop/garten-und-forst
+/gartengeraete/stihl/;/shop/garten-und-forst/stihl
+/haus-garten/gartengeraete/stihl/;/shop/garten-und-forst/stihl
+/gitterroste/;/shop/gitterroste
+/gitterroste-nach-mass/;/gitterroste-nach-mass
+/eisenwaren/;/shop/eisenwaren
+/elektro/;/shop/elektro
+/arbeitsschutz/;/shop/arbeitsschutz
+/sicherheitstechnik/;/shop/sicherheitstechnik
+/tore-tueren/;/shop/tore-und-tueren
+/zaeune/;/shop/zaeune
+/baubedarf/;/shop/baubedarf
+/anhaengerzubehoer/;/shop/anhaengerzubehoer
+/fundgrube/;/shop/fundgrube
+/wir-ueber-uns/;/ueber-uns
+/kontakt/;/kontakt

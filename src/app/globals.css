@@ -1,0 +1,317 @@
+@import "tailwindcss";
+
+/*
+ * Design-Tokens Böwe GmbH
+ * Markenfarben per Pixelanalyse aus dem Logo: Orange #EF7100, Schattenkante #1A1A18.
+ * Kontraste (WCAG 2.2 AA) sind in docs/DECISIONS.md dokumentiert:
+ *  - Orange als Fläche immer mit dunkler Schrift (5,8:1), nie weiße Schrift auf Orange (3,0:1)
+ *  - Orange als Textfarbe auf hellem Grund: --brand-text #A84E00 (5,6:1)
+ */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  color-scheme: light;
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --surface-2: #f3efe9;
+  --surface-3: #e9e3da;
+  --ink: #1a1a18;
+  --ink-muted: #5c5853;
+  --line: #e2dbd1;
+  --line-strong: #c9c0b4;
+  --brand: #ef7100;
+  --brand-hover: #ff8114;
+  --brand-ink: #1a1a18;
+  --brand-text: #a84e00;
+  --brand-soft: #fdebd9;
+  --success: #1f7a3a;
+  --warning: #9a5b00;
+  --danger: #b42318;
+  --overlay: rgb(26 26 24 / 0.45);
+  --glass: rgb(255 255 255 / 0.72);
+  --shadow-color: 30 25 20;
+  --grain-opacity: 0.035;
+}
+
+/* Systemeinstellung, solange kein data-theme gesetzt ist (z. B. ohne JavaScript) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #121110;
+    --surface: #1b1a18;
+    --surface-2: #242220;
+    --surface-3: #2e2b28;
+    --ink: #f3efe9;
+    --ink-muted: #a8a29a;
+    --line: #2e2b28;
+    --line-strong: #45413c;
+    --brand: #ef7100;
+    --brand-hover: #ff8a24;
+    --brand-ink: #1a1a18;
+    --brand-text: #f07a10;
+    --brand-soft: #3a2410;
+    --success: #4ade80;
+    --warning: #fbbf24;
+    --danger: #f97066;
+    --overlay: rgb(0 0 0 / 0.6);
+    --glass: rgb(27 26 24 / 0.72);
+    --shadow-color: 0 0 0;
+    --grain-opacity: 0.05;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121110;
+  --surface: #1b1a18;
+  --surface-2: #242220;
+  --surface-3: #2e2b28;
+  --ink: #f3efe9;
+  --ink-muted: #a8a29a;
+  --line: #2e2b28;
+  --line-strong: #45413c;
+  --brand: #ef7100;
+  --brand-hover: #ff8a24;
+  --brand-ink: #1a1a18;
+  --brand-text: #f07a10;
+  --brand-soft: #3a2410;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f97066;
+  --overlay: rgb(0 0 0 / 0.6);
+  --glass: rgb(27 26 24 / 0.72);
+  --shadow-color: 0 0 0;
+  --grain-opacity: 0.05;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-text: var(--brand-text);
+  --color-brand-soft: var(--brand-soft);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-glass: var(--glass);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-archivo), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1.25rem;
+  --radius-tile: 1.75rem;
+
+  --shadow-soft: 0 1px 2px rgb(var(--shadow-color) / 0.06), 0 8px 24px -12px rgb(var(--shadow-color) / 0.18);
+  --shadow-lift: 0 2px 4px rgb(var(--shadow-color) / 0.06), 0 24px 48px -20px rgb(var(--shadow-color) / 0.35);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-up: fade-up 0.6s var(--ease-out-expo) both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Subtile Körnung – reine CSS/SVG-Textur, keine Bilddatei, kein Layout-Einfluss */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    font-variation-settings: "wdth" 88;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--brand);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: var(--brand);
+    color: var(--brand-ink);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 88rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 80rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+@utility text-display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4.2vw + 1rem, 5.5rem);
+  line-height: 0.95;
+  font-weight: 800;
+  font-variation-settings: "wdth" 80;
+  letter-spacing: -0.035em;
+}
+
+@utility text-display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.5vw + 1rem, 4rem);
+  line-height: 1;
+  font-weight: 800;
+  font-variation-settings: "wdth" 84;
+  letter-spacing: -0.03em;
+}
+
+@utility glass {
+  background: var(--glass);
+  backdrop-filter: saturate(1.4) blur(16px);
+  -webkit-backdrop-filter: saturate(1.4) blur(16px);
+}
+
+/* Utility for the hidden scrollbars on horizontal rails */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes sheet-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@keyframes sheet-in-right {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes sheet-in-top {
+  from {
+    transform: translateY(-100%);
+  }
+}
+@keyframes sheet-in-bottom {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes palette-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+}
+
+@layer components {
+  .palette-group [cmdk-group-heading] {
+    padding: 0.75rem 0.75rem 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  .palette-item {
+    display: flex;
+    min-height: 2.75rem;
+    cursor: pointer;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .palette-item[data-selected="true"] {
+    background: var(--surface-2);
+  }
+}
+
+/* Markenleiste: läuft endlos, pausiert bei Hover; bei reduzierter Bewegung statisch und umbrechend */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  animation: marquee 45s linear infinite;
+}
+.marquee:hover {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 1rem;
+  }
+  .marquee > :nth-child(n + 13) {
+    display: none;
+  }
+}

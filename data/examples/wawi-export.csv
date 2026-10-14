@@ -1,0 +1,4 @@
+Artikelnummer;Bezeichnung;Hersteller;Kategorie;VK Brutto;MwSt;Versandart;Lagerstatus;Bestand;EAN;Herstellernummer;Kurzbeschreibung;attr:Maschenweite [mm];attr:Oberfläche;Bilder
+DEMO-CSV-1;Lichtschachtrost 800 x 400 mm, MW 30/30;;Gitterroste > Lichtschachtroste;"44,90";19;Paket;Auf Lager;12;2000009000016;;Beispiel aus einem CSV-Export;30 x 30;feuerverzinkt;/images/placeholder/grating-1.svg|/images/placeholder/grating-2.svg
+DEMO-CSV-2;Ladenband verzinkt 400 mm;;eisenwaren/beschlaege;8,90;19;dhl;lieferbar;40;;;;;galvanisch verzinkt;
+DEMO-CSV-3;Fehlerhafter Datensatz ohne Kategorie;;;12,00;19;Paket;;;12345;;;;;

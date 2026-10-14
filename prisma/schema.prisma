@@ -1,0 +1,189 @@
+// Böwe GmbH – Katalog-Datenmodell
+// Entwicklung: SQLite (Driver Adapter better-sqlite3), Produktion: PostgreSQL (siehe docs/DECISIONS.md)
+// Enum-artige Felder sind bewusst als String modelliert und werden in src/server/catalog/types.ts
+// typisiert/validiert – so bleibt das Schema zwischen SQLite und PostgreSQL identisch.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Category {
+  id              String   @id @default(cuid())
+  slug            String
+  /// Voller Pfad aus Slugs, z. B. "gitterroste/normroste" – Grundlage der URL /shop/<path>
+  path            String   @unique
+  name            String
+  description     String?
+  /// Schlüssel des Piktogramms/Platzhalters (z. B. "grating", "garden")
+  icon            String?
+  image           String?
+  depth           Int      @default(0)
+  sortOrder       Int      @default(0)
+  /// JSON-Array der Attribut-Schlüssel, die in dieser Kategorie als Filter angeboten werden
+  filterKeys      String   @default("[]")
+  metaTitle       String?
+  metaDescription String?
+  isHidden        Boolean  @default(false)
+  /// Querverweis statt eigener Kategorie (vermeidet Dopplungen), z. B. "sicherheitstechnik/tuerschloesser"
+  linkToPath      String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  parentId String?
+  parent   Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children Category[] @relation("CategoryTree")
+
+  products ProductCategory[]
+
+  @@unique([parentId, slug])
+  @@index([parentId, sortOrder])
+}
+
+model Brand {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  name        String    @unique
+  description String?
+  website     String?
+  featured    Boolean   @default(false)
+  products    Product[]
+}
+
+model Product {
+  id               String  @id @default(cuid())
+  sku              String  @unique
+  slug             String  @unique
+  name             String
+  shortDescription String?
+  description      String?
+
+  /// Bruttopreis in Cent (inkl. MwSt.)
+  priceGrossCents     Int
+  /// Optionaler Vergleichspreis (Streichpreis) in Cent – nur mit belegbarem Vorpreis nutzen (PAngV § 11)
+  compareAtPriceCents Int?
+  /// MwSt.-Satz in Prozent (19 oder 7)
+  taxRate             Int     @default(19)
+  /// Grundpreis-Einheit, z. B. "Stück", "m", "Rolle"
+  unit                String  @default("Stück")
+
+  /// PAKET | SPEDITION
+  shippingClass String  @default("PAKET")
+  weightGrams   Int?
+  /// IN_STOCK | LOW_STOCK | OUT_OF_STOCK | ON_REQUEST
+  stockStatus   String  @default("IN_STOCK")
+  stockQuantity Int?
+  /// Abweichende Lieferzeit als Text, sonst Standard je Versandklasse
+  deliveryTime  String?
+
+  ean String?
+  mpn String?
+
+  /// Artikel mit gleicher variantGroup sind Varianten voneinander
+  variantGroup String?
+
+  isActive        Boolean @default(true)
+  isNew           Boolean @default(false)
+  isBestseller    Boolean @default(false)
+  isTopProduct    Boolean @default(false)
+  isClearance     Boolean @default(false)
+  /// Artikel enthält Batterien/Akkus → Hinweise nach BattDG
+  containsBattery Boolean @default(false)
+
+  metaTitle       String?
+  metaDescription String?
+
+  /// Herkunft der Daten (z. B. "seed:beispiel", "import:wawi-2026-10-14")
+  source     String?
+  /// Rechtehinweis für Texte/Bilder (z. B. "Herstellertext – Nutzung zu klären")
+  rights     String?
+  importedAt DateTime?
+  /// Hash des normalisierten Importdatensatzes – unveränderte Datensätze werden übersprungen
+  importHash String?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  brandId String?
+  brand   Brand?  @relation(fields: [brandId], references: [id], onDelete: SetNull)
+
+  images     ProductImage[]
+  attributes ProductAttribute[]
+  categories ProductCategory[]
+  relations  ProductRelation[]  @relation("RelationFrom")
+  relatedBy  ProductRelation[]  @relation("RelationTo")
+
+  @@index([brandId])
+  @@index([variantGroup])
+  @@index([isActive, isNew])
+  @@index([isActive, isBestseller])
+  @@index([priceGrossCents])
+  @@index([ean])
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  url       String
+  alt       String
+  sortOrder Int     @default(0)
+  width     Int?
+  height    Int?
+  source    String?
+  rights    String?
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, sortOrder])
+}
+
+model ProductAttribute {
+  id           String  @id @default(cuid())
+  /// Maschinenlesbarer Schlüssel, z. B. "maschenweite"
+  key          String
+  /// Anzeigename, z. B. "Maschenweite"
+  label        String
+  value        String
+  unit         String?
+  /// Numerischer Wert für Bereichsfilter/Sortierung (falls ableitbar)
+  numericValue Float?
+  sortOrder    Int     @default(0)
+  /// Unterscheidet Varianten derselben variantGroup (z. B. Größe, Maß)
+  isVariantAxis Boolean @default(false)
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, key])
+  @@index([key, value])
+}
+
+model ProductCategory {
+  productId  String
+  categoryId String
+  /// true = Primärkategorie (Breadcrumb, kanonischer Pfad)
+  isPrimary  Boolean @default(false)
+  sortOrder  Int     @default(0)
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([productId, categoryId])
+  @@index([categoryId])
+}
+
+model ProductRelation {
+  /// ACCESSORY | SIMILAR
+  type      String @default("ACCESSORY")
+  sortOrder Int    @default(0)
+
+  fromId String
+  from   Product @relation("RelationFrom", fields: [fromId], references: [id], onDelete: Cascade)
+  toId   String
+  to     Product @relation("RelationTo", fields: [toId], references: [id], onDelete: Cascade)
+
+  @@id([fromId, toId, type])
+}

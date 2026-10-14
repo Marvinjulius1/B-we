@@ -1,0 +1,27 @@
+{
+  "$comment": "Marken aus dem Briefing. Logos werden bewusst NICHT eingebunden (Nutzungsrechte ungeklärt) – Anzeige als Text-Chips.",
+  "brands": [
+    { "name": "Stihl", "featured": true },
+    { "name": "Viking", "featured": true },
+    { "name": "Ego", "featured": true },
+    { "name": "Pellenc", "featured": true },
+    { "name": "Sunseeker", "featured": false },
+    { "name": "Abus", "featured": true },
+    { "name": "Burg-Wächter", "featured": true },
+    { "name": "Hörmann", "featured": true },
+    { "name": "Makita", "featured": true },
+    { "name": "FHB", "featured": true },
+    { "name": "Puma", "featured": true },
+    { "name": "Albatros", "featured": true },
+    { "name": "Atlas", "featured": false },
+    { "name": "3M", "featured": true },
+    { "name": "Betafence", "featured": true },
+    { "name": "Layher", "featured": true },
+    { "name": "MEA", "featured": false },
+    { "name": "Danfoss", "featured": false },
+    { "name": "Velda", "featured": false },
+    { "name": "Idealspaten", "featured": false },
+    { "name": "Safire", "featured": false },
+    { "name": "Vosker", "featured": false }
+  ]
+}

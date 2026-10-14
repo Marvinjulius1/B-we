@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Beispiel eines XML-Exports (generische Struktur) -->
+<products>
+  <product>
+    <sku>DEMO-XML-1</sku>
+    <name>Pfostenträger U-Form 91 mm, feuerverzinkt</name>
+    <categories><category>Eisenwaren &gt; Pfostenträger und -kappen</category></categories>
+    <price>14,50</price>
+    <taxRate>19</taxRate>
+    <stockStatus>IN_STOCK</stockStatus>
+    <attributes>
+      <attribute key="abmessung">91 x 600 mm</attribute>
+      <attribute key="oberflaeche">feuerverzinkt</attribute>
+    </attributes>
+    <images><image alt="Pfostenträger U-Form">/images/placeholder/hardware-1.svg</image></images>
+  </product>
+</products>
